@@ -1,0 +1,387 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+
+.section{
+	background-image: url(images/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	display: block;
+}
+.blr{
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgba(0,0,0,.7);
+	position: relative;
+}
+.section:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.menu{
+	width: 60%;
+	float: left;
+}
+.button{
+	width: 20%;
+	float: left;
+	text-align: right;
+	margin-top: 36px;
+	transition: transform .4s;
+
+}
+.button a{
+	width: 150px;
+	margin: auto;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 25px;
+	background-color: #e74c3c;
+	color: #FFF;
+	border-radius: 15px;
+	
+}
+.button:hover{
+	transform: scale(1.2);
+}
+.logo a{
+	font-size: 25px;
+	color: #ddd;
+	font-weight: bold;
+	text-align: center;
+}
+.logo a span{
+	color: red;
+}
+
+.logo a h1{
+	margin-top: 20px;
+}
+.menu ul{
+	text-align: right;
+	margin-top: 30px;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	display: block;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+	transition: transform .4s;
+}
+.menu ul li a:hover{
+	transform: scale(1.2);
+	color: red;
+}
+.contain{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+}
+
+.contain h4{
+	font-size: 22px;
+	font-family: sans-serif;
+	color: #Fff;
+}
+.contain h1{
+	font-size: 40px;
+	font-family: sans-serif;
+	margin: 10px 0px;
+	color: #FFF;
+}
+.contain p{
+	font-size: 18px;
+	font-family: sans-serif;
+	color: #DDD;
+	margin-bottom: 20px;
+}
+
+.contain input[type="text"]{
+	padding: 10px 80px 10px 10px;
+	font-size: 16px;
+	font-family: sans-serif;
+	border: 1px solid #ddd;
+	outline: none;
+	border-radius: 55px;
+	position: relative;
+}
+.contain input[type="submit"]{
+	background-color: #000;
+	color: #FFF;
+	border: 1px solid #000;
+	position: absolute;
+	top: 132px;
+	left: 200px;
+	padding: 12px 15px;
+	font-size: 16px;
+	border-radius: 55px;
+	font-family: sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.about{
+	width: 100%;
+	height: 50vh;
+	padding: 100px 0px;
+	background-color: #636e72;
+}
+
+.mid{
+	width: 80%;
+	margin: auto;
+
+}
+.about-image{
+	width: 40%;
+	float: left;
+}
+
+.about-text{
+	width: 60%;
+	float: left;
+}
+.about-image img{
+	width: 340px;
+	height: auto;
+	border-radius: 30px;
+	box-shadow: 2px 0px 9px 5px;
+	border: 2px solid #ddd;
+}
+.about-text h2{
+	font-size: 45px;
+	color: #fff;
+	font-family: tahoma;
+}
+
+.about-text h4{
+	font-size: 30px;
+	color: #fff;
+	font-family: sans-serif;
+	margin: 10px 0px;
+}
+.about-text h4 span{
+	color: #d63031;
+}
+
+.about-text p{
+	line-height: 1.5em;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: #fff;
+}
+.about-text a{
+	width: 150px;
+	margin-top: 20px;
+	font-size: 22px;
+	display: block;
+	font-family: sans-serif;
+	color: #fff;
+	font-weight: bold;
+	padding: 10px 15px;
+	background-color: #d63031;
+	text-align: center;
+	border-radius: 10px;
+	border: 2px solid #d63031;
+	transition: .4s;
+}
+.about-text a:hover{
+	background-color: #636e72;
+	border: 2px solid #ddd;
+}
+.service{
+	background-color: #636e72;
+	padding: 100px 0px;
+}
+.service h1{
+	font-size: 40px;
+	text-align: center;
+	font-family: sans-serif;
+	color: #fff;
+}
+.service p{
+	width: 65%;
+	margin: 20px auto;
+	text-align: center;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: #FFF;
+}
+.service-box{
+	width: 27%;
+	display: inline-block;
+	border: 1px solid #ddd;
+	padding: 30px 10px;
+	margin: 10px;
+	background-color: #2d3436;
+	border-radius: 20px;
+}
+
+.service-content{
+	padding: 10px;
+}
+
+.service-content i{
+	font-size: 28px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	color: #fff;
+}
+.service-content h5{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 22px;
+	color: #ff7675;
+	font-family: sans-serif;
+}
+
+.service-content p{
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	line-height: 1.2em;
+}
+
+.service-content .pra a{
+	font-size: 18px;
+	color: #2d3436;
+	font-family: tahoma;
+	font-weight: 400;
+	text-align: center;
+	display: block;
+	width: 120px;
+	margin: 20px auto;
+	padding: 10px 15px;
+	background-color: #c0392b;
+	border: 3px solid #95a5a6;
+	border-radius: 20px;
+	color: #fff;
+	transition: .4s;
+}
+.service-content .pra a:hover{
+	background-color: #2d3436;
+}
+
+.contact-me{
+	padding: 50px 0px;
+	background-color: #b2bec3;
+}
+.contact-me h1{
+	text-align: center;
+	color: #d63031;
+	font-size: 35px;
+	font-family: tahoma;
+}
+.contact-me p{
+	text-align: center;
+	width: 100%;
+	margin: 15px auto;
+	font-size: 22px;
+	font-family: sans-serif;
+	color: #ff7675;
+}
+.contact-me a{
+	text-align: center;
+	display: block;
+	width: 120px;
+	margin: 20px auto;
+	padding: 10px 18px;
+	border: 2px solid #dfe6e9;
+	font-size: 18px;
+	font-family: tahoma;
+	background-color: #d63031;
+	border-radius: 20px;
+	color: #FFF;
+	font-weight: bold;
+	transition: .4s;
+}
+.contact-me a:hover{
+	background-color: #636e72;
+}
+
+.footer{
+	padding: 50px 0px 20px 0px;
+	background-color: #636e72;
+}
+
+.footer h4{
+	text-align: center;
+	font-size: 35px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.footer p{
+	width: 80%;
+	margin: 10px auto;
+	text-align: center;
+	color: #dfe6e9;
+}
+.footer .social-2{
+	text-align: center;
+	margin: 30px 0px 0px 0px;
+}
+
+.footer .social-2 ul li{
+	display: inline-block;
+}
+
+.footer .social-2 ul li a{
+	display: block;
+	padding: 10px;
+	background-color: #2d3436;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	transition: .4s;
+}
+.footer .social-2 ul li a i{
+	margin-top: 2px;
+}
+
+
+.footer .social-2 ul li a:hover{
+	background-color: #fff;
+	color: #d63031;
+}
+
+.footer .social-2 span{
+	margin-top: 30px;
+	display: block;
+	color: #b2bec3;
+}
+
+.footer .social-2 span a{
+	color: #ff7675;
+	margin-left: 5px;
+}
+
+.footer-2{
+	width: 100%;
+	height: 50px;
+	background-color: #2d3436;
+}
